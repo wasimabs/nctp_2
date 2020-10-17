@@ -1,0 +1,17 @@
+{
+  "name": "flexbox",
+  "version": "1.0.0",
+  "description": "NCTP project 2",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/main.css -w"
+  },
+  "author": "Wasim Abbas",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
+}
