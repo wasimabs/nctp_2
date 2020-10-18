@@ -1,0 +1,35 @@
+.logo {
+    height: 3.25rem;
+}
+.search{
+    background-color: yellowgreen;
+    &__input {
+        
+    }
+    &__button {
+
+    }
+    &__icon {
+        height: 2rem;
+        width: 2rem;
+    }
+}
+.user-nav {
+    background-color: red;
+    &_icon-box {
+
+    }
+    &_icon {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+    &_user {
+
+    }
+    &_user-photo {
+
+    }
+    &_user-name {
+
+    }
+}

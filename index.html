@@ -11,6 +11,42 @@
         <title>trillo &mdash; Your all-in-one booking app</title>
     </head>
     <body>
-        Welcome to NCTP
+        <div class="container">
+            <header class="header">
+                <img src="img/logo.png" class="logo" alt="Company Logo">
+                <form action="#" class="search">
+                    <input type="search" class="search__input" placeholder="Search Nearest Hotels" >
+                    <button class="search__button">
+                        <svg class="search__icon" >
+                            <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                        </svg>
+                    </button>
+                </form>
+                <nav class="user-nav">
+                    <div class="user-nav_icon-box">
+                        <svg class="user-nav_icon" >
+                            <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+                        </svg>
+                    </div>
+                    <div class="user-nav_icon-box">
+                        <svg class="user-nav_icon" >
+                            <use xlink:href="img/sprite.svg#icon-chat"></use>
+                        </svg>
+                    </div>
+                    <div class="user-nav_user">
+                        <img class="user-nav_user-photo" src="img/user.jpg" alt="">
+                        <span class="user-nav_user-name">Wasim</span>
+                    </div>
+                </nav>
+            </header>
+            <div class="content">
+                <nav class="sidebar">
+                    Sidebar Navigation
+                </nav>
+                <main class="hotel-view">
+                    Hotel View
+                </main>
+            </div>
+        </div>
     </body>
 </html>

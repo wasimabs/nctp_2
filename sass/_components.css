@@ -1,0 +1,19 @@
+.logo {
+  height: 3.25rem;
+}
+
+.search {
+  background-color: yellowgreen;
+}
+.search__icon {
+  height: 2rem;
+  width: 2rem;
+}
+
+.user-nav {
+  background-color: red;
+}
+.user-nav_icon {
+  height: 2.25rem;
+  width: 2.25rem;
+}
